@@ -8,6 +8,16 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  preview: {
+    host: "::",
+    port: 8080,
+    allowedHosts: [
+      "localhost",
+      "127.0.0.1",
+      "ernio-assignment-1.onrender.com",
+      ".onrender.com"
+    ]
+  },
   plugins: [
     react(),
   ],
