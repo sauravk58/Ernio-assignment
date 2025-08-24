@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: lead-management-system
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+      - key: NPM_FLAGS
+        value: "--legacy-peer-deps"
+      - key: NODE_ENV
+        value: production
+    buildFilter:
+      paths:
+        - src/**
+        - public/**
+        - package.json
+        - package-lock.json
+        - vite.config.ts
+        - tailwind.config.js
+        - tsconfig.json
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
