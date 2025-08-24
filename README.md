@@ -24,10 +24,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone [<YOUR_GIT_URL>](https://github.com/sauravk58/Ernio-assignment)
+git clone (https://github.com/sauravk58/Ernio-assignment)
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd Ernio-assignment
 
 # Step 3: Install the necessary dependencies.
 npm i
