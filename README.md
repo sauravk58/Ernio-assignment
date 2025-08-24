@@ -2,15 +2,15 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/f456f79d-4bb0-42a2-85dc-4d60dee16aeb
-
+**Frontend-URL**:(https://ernio-assignment.vercel.app/)
+**Backend-URL**: https://ernio-assignment-1.onrender.com/
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f456f79d-4bb0-42a2-85dc-4d60dee16aeb) and start prompting.
+Simply visit the [(https://lovable.dev/projects/f456f79d-4bb0-42a2-85dc-4d60dee16aeb)](https://ernio-assignment.vercel.app/) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
